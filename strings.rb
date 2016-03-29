@@ -1,7 +1,7 @@
 def strings(words)
 	array = words.split
 		array.collect do |word|
-		puts "\"#{word}\""
+		puts "\"#{word}\","
 		end
 end
 
