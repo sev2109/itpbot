@@ -6,7 +6,6 @@ import random
 
 # Create word lists by part of speech
 buzz_nouns_singular = [
-<<<<<<< HEAD
     "about", 
     "me", 
     "academia", 
@@ -178,10 +177,6 @@ buzz_nouns_singular = [
 	"Text Analysis",
 	"Video",
 	"Work",
-    ]
-
-
-=======
     "archive",
     "art",
     "Capitalism",
@@ -224,9 +219,7 @@ buzz_nouns_singular = [
     "learning",
     "Machines",
     "Marx",
-    "N.",
-    "Katherine",
-    "Hayles",
+    "N. Katherine Hayles",
     "Nakamura",
     "New",
     "Media",
@@ -241,15 +234,11 @@ buzz_nouns_singular = [
     "Technology",
     "Twitter",
     "Wikipedia",
-    "about",
-    "me",
     "academia",
-    "agile",
-    "development",
+    "agile development",
     "bios",
     "Bootcamp",
-    "Chris",
-    "Stein",
+    "Chris Stein",
     "collaboration",
     "Contexts",
     "Digital",
@@ -259,45 +248,31 @@ buzz_nouns_singular = [
     "diversity",
     "education",
     "English",
-    "Ethan",
-    "Marcotte",
+    "Ethan Marcotte",
     "GCDI",
-    "Get",
-    "Real",
-    "guest",
-    "speakers",
-    "independent",
-    "study",
+    "Get Real",
+    "guest speakers",
+    "independent study",
     "interactive",
     "intersectionality",
     "ITP",
     "2011",
-    "ITP",
-    "2016",
-    "ITP",
-    "students",
-    "Jason",
-    "Santa",
-    "Maria",
+    "ITP2016",
+    "ITP students",
+    "Jason Santa Maria",
     "learning",
     "lightning",
     "talks",
     "memory",
     "NYCDH",
-    "Office",
-    "Hours",
     "Omeka",
     "online",
     "Practicalities",
-    "project",
-    "development",
-    "project",
-    "proposals",
-    "responsive",
-    "web",
+    "project development",
+    "project proposals",
+    "responsive web",
     "design",
-    "scope",
-    "creep",
+    "scope creep",
     "start-up",
     "culture",
     "teaching",
@@ -311,7 +286,7 @@ buzz_nouns_singular = [
     "Wikipedia",
     "workshops"
 ]
->>>>>>> origin/master
+
 
 computer_adjectives = [
     "minimal",
@@ -545,7 +520,7 @@ buzz_gerund = [
     "newsjacking",
     "deep linking",
     ]
-
+"""
 politician = [
     "Hillary Clinton",
     "Barack Obama",
@@ -588,7 +563,7 @@ s_modifier = [
     "++",
     " Bot",
     ]
-
+"""
 hashtags = [
     '#technology',
     '#futurism',
