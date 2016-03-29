@@ -590,9 +590,6 @@ hashtags = [
     '#marketing',
     '#news',
     '#PredictiveAnalytics',
-    '#SAP',
-    '#SCRM',
-    '#SEO',
     '#strategy',
     '#upandcoming',
     '#virtualization',
@@ -733,6 +730,14 @@ verb = [
 
 	]
 
+handle = [
+    "@saraevogel",
+    "@trsober",
+    "@jojokarlin",
+    "@smythp",
+    "@emisshula",
+    ]
+
 # Define a function for each template
 # These functions take words and randomly put them into preset sentences
 # Note that I didn't use the first one
@@ -751,7 +756,7 @@ def create_politico(politician,p_modifier,s_modifier):
 
 
 def happy_gen():
-    return("#ITPCore2 is happy. %s %s %s" % (random.choice(verb).lower(),random.choice(computer_adj),random.choice(buzz_nouns)))
+    return("#ITPCore2 is happy. %s %s %s %s" % (random.choice(handle),random.choice(verb).lower(),random.choice(computer_adj),random.choice(buzz_nouns).lower()))
 
 def ped_gen():
     return("Interact with pedagogy! %s %s! #ITPCore2" % (random.choice(computer_adj),random.choice(hashtags)))
