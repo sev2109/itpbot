@@ -5,7 +5,7 @@
 import random
 
 # Create word lists by part of speech
-buzz_nouns_singular = [
+buzz_nouns = [
     "about", 
     "me", 
     "academia", 
@@ -288,7 +288,7 @@ buzz_nouns_singular = [
 ]
 
 
-computer_adjectives = [
+computer_adj = [
     "minimal",
     "neural",
     "synaptic",
@@ -355,215 +355,215 @@ computer_adjectives = [
     "convergence",
     ]
 
-noncomp adjectives = [
-	"Accurate",
-	"Adaptable",
-	"Agile",
-	"Capable/capability",
-	"Collaborative",
-	"Competitive",
-	"edge/advantage",
-	"Cool under pressure",
-	"Communication",
-	"Confident",
-	"Conflict resolution",
-	"Consistent",
-	"Creative",
-	"Critical thinking",
-	"Cross functional",
-	"Culturally conscious",
-	"Ethical",
-	"Facilitator",
-	"Flexible",
-	"Focused",
-	"Decision making",
-	"Detail oriented",
-	"Determination",
-	"Diligent",
-	"Directive",
-	"Dynamic",
-	"Effective",
-	"Efficient",
-	"Enthusiastic",
-	"Follow-up",
-	"Go getter",
-	"Hardworking",
-	"Initiative",
-	"Innovative",
-	"Integrity",
-	"Intuitive",
-	"Investigative",
-	"Judgment",
-	"Leader",
-	"Mindful",
-	"Motivated",
-	"Negotiations",
-	"Objective",
-	"Organized",
-	"Quality",
-	"Quick learner",
-	"Partnering",
-	"Passionate",
-	"Persuasive",
-	"Prepared",
-	"Proactive",
-	"Problem solver",
-	"Productive",
-	"Professional",
-	"Prompt",
-	"Provide/provision",
-	"Punctual",
-	"Reliable",
-	"Resourceful",
-	"Respectable",
-	"Respectful",
-	"Responsive",
-	"Selfless",
-	"Service",
-	"Specialist",
-	"Strategic",
-	"Tactical",
-	"Task oriented",
-	"Teamwork",
-	"Technical",
-	"Time management",
-	"Transformative",
-	"Troubleshooter",
-	"Unifying",
-	"Updated",
-	"Visionary",
-	"Well-written",
+# noncomp adjectives = [
+# 	"Accurate",
+# 	"Adaptable",
+# 	"Agile",
+# 	"Capable/capability",
+# 	"Collaborative",
+# 	"Competitive",
+# 	"edge/advantage",
+# 	"Cool under pressure",
+# 	"Communication",
+# 	"Confident",
+# 	"Conflict resolution",
+# 	"Consistent",
+# 	"Creative",
+# 	"Critical thinking",
+# 	"Cross functional",
+# 	"Culturally conscious",
+# 	"Ethical",
+# 	"Facilitator",
+# 	"Flexible",
+# 	"Focused",
+# 	"Decision making",
+# 	"Detail oriented",
+# 	"Determination",
+# 	"Diligent",
+# 	"Directive",
+# 	"Dynamic",
+# 	"Effective",
+# 	"Efficient",
+# 	"Enthusiastic",
+# 	"Follow-up",
+# 	"Go getter",
+# 	"Hardworking",
+# 	"Initiative",
+# 	"Innovative",
+# 	"Integrity",
+# 	"Intuitive",
+# 	"Investigative",
+# 	"Judgment",
+# 	"Leader",
+# 	"Mindful",
+# 	"Motivated",
+# 	"Negotiations",
+# 	"Objective",
+# 	"Organized",
+# 	"Quality",
+# 	"Quick learner",
+# 	"Partnering",
+# 	"Passionate",
+# 	"Persuasive",
+# 	"Prepared",
+# 	"Proactive",
+# 	"Problem solver",
+# 	"Productive",
+# 	"Professional",
+# 	"Prompt",
+# 	"Provide/provision",
+# 	"Punctual",
+# 	"Reliable",
+# 	"Resourceful",
+# 	"Respectable",
+# 	"Respectful",
+# 	"Responsive",
+# 	"Selfless",
+# 	"Service",
+# 	"Specialist",
+# 	"Strategic",
+# 	"Tactical",
+# 	"Task oriented",
+# 	"Teamwork",
+# 	"Technical",
+# 	"Time management",
+# 	"Transformative",
+# 	"Troubleshooter",
+# 	"Unifying",
+# 	"Updated",
+# 	"Visionary",
+# 	"Well-written",
 
-	]
+# 	]
 
-currency = [
-    "Dollar",
-    "Cent",
-    "Livre",
-    "Ducat",
-    "buck",
-    "Deutschmark",
-    "Euro",
-    "coin",
-    "wampum",
-    "porkbelly",
-    "future",
-    "bond",
-    "equity",
-    ]
+# currency = [
+#     "Dollar",
+#     "Cent",
+#     "Livre",
+#     "Ducat",
+#     "buck",
+#     "Deutschmark",
+#     "Euro",
+#     "coin",
+#     "wampum",
+#     "porkbelly",
+#     "future",
+#     "bond",
+#     "equity",
+#     ]
 
-computer_prefixes = [
-    "neo",
-    "net",
-    "geo",
-    "crypto",
-    "info",
-    "digi",
-    "tele",
-    "cyber",
-    "compu",
-    "meta",
-    "hyper",
-    "q-",
-    "e-",
-    "i",
-    "micro",
-    "ether",
-    "macro",
-    "mecha",
-    "neuro",
-    "tech",
-    "x-",
-    "stegano",
-    "click",
-    "pheno",
-]
+# computer_prefixes = [
+#     "neo",
+#     "net",
+#     "geo",
+#     "crypto",
+#     "info",
+#     "digi",
+#     "tele",
+#     "cyber",
+#     "compu",
+#     "meta",
+#     "hyper",
+#     "q-",
+#     "e-",
+#     "i",
+#     "micro",
+#     "ether",
+#     "macro",
+#     "mecha",
+#     "neuro",
+#     "tech",
+#     "x-",
+#     "stegano",
+#     "click",
+#     "pheno",
+# ]
 
-biparte_nouns = [
-    "optics",
-    "ops",
-    "local",
-    "drone",
-    "vector",
-    "graphy",
-    "hacker",
-    "blog",
-    "speech",    
-    "management",
-    "design",
-    "tech",
-    "nocracy",
-    "selfie",
-    ]
+# biparte_nouns = [
+#     "optics",
+#     "ops",
+#     "local",
+#     "drone",
+#     "vector",
+#     "graphy",
+#     "hacker",
+#     "blog",
+#     "speech",    
+#     "management",
+#     "design",
+#     "tech",
+#     "nocracy",
+#     "selfie",
+#     ]
 
-biparte_adjectives = [
-    "service",
-    "dendritic",
-    "centric",
-    "focused",
-    "morphic",
-    "dermic",
-    "sphere",
-    "desic",
-    "logical",
-    "thermic",
-    "nomic",
-    "factor",
-    ]
+# biparte_adjectives = [
+#     "service",
+#     "dendritic",
+#     "centric",
+#     "focused",
+#     "morphic",
+#     "dermic",
+#     "sphere",
+#     "desic",
+#     "logical",
+#     "thermic",
+#     "nomic",
+#     "factor",
+#     ]
 
 
-buzz_gerund = [
-    "computing",
-    "making",
-    "dog fooding",
-    "growth hacking",
-    "newsjacking",
-    "deep linking",
-    ]
-"""
-politician = [
-    "Hillary Clinton",
-    "Barack Obama",
-    "Arnold Schwarzenegger",
-    "Mitt Romney",
-    "Paul Ryan",
-    "Sarah Palin",
-    "Queen Rania Al Abdullah",
-    "Bill Clinton",
-    "Goodluck Jonathan",
-    "Mike Huckabee",
-    "Herman Cain",
-    "Nicolas Sarkozy",
-    ]
+# buzz_gerund = [
+#     "computing",
+#     "making",
+#     "dog fooding",
+#     "growth hacking",
+#     "newsjacking",
+#     "deep linking",
+#     ]
 
-p_modifier = [
-    "Mecha",
-    "Cyber",
-    "Cyborg",
-    "Zombie",
-    "Posthuman",
-    "Pandimensional",
-    "3-D",
-]
+# politician = [
+#     "Hillary Clinton",
+#     "Barack Obama",
+#     "Arnold Schwarzenegger",
+#     "Mitt Romney",
+#     "Paul Ryan",
+#     "Sarah Palin",
+#     "Queen Rania Al Abdullah",
+#     "Bill Clinton",
+#     "Goodluck Jonathan",
+#     "Mike Huckabee",
+#     "Herman Cain",
+#     "Nicolas Sarkozy",
+#     ]
 
-post = [
-    "Prime Minister",
-    "President",
-    "Senator",
-    "Chairman",
-    "Representative",
-    "Hegemon",
-    "General",
-    "Secretary",
-    ]
+# p_modifier = [
+#     "Mecha",
+#     "Cyber",
+#     "Cyborg",
+#     "Zombie",
+#     "Posthuman",
+#     "Pandimensional",
+#     "3-D",
+# ]
 
-s_modifier = [
-    " 2.0",
-    " Prime",
-    "++",
-    " Bot",
-    ]
-"""
+# post = [
+#     "Prime Minister",
+#     "President",
+#     "Senator",
+#     "Chairman",
+#     "Representative",
+#     "Hegemon",
+#     "General",
+#     "Secretary",
+#     ]
+
+# s_modifier = [
+#     " 2.0",
+#     " Prime",
+#     "++",
+#     " Bot",
+#     ]
+
 hashtags = [
     '#technology',
     '#futurism',
@@ -750,18 +750,18 @@ def create_politico(politician,p_modifier,s_modifier):
 #print("Can %s curb fluctuations in the %s%s market?" % (create_politico(politician,p_modifier,s_modifier),random.choice(computer_prefixes),random.choice(currency)))
 
 
-def disrupt_gen():
-    return("Are %s%s %ss disrupting %s %ss in the %s space?" % (random.choice(computer_prefixes),random.choice(biparte_nouns),random.choice(buzz_nouns_singular),random.choice(computer_adjectives),random.choice(buzz_nouns_singular),random.choice(buzz_gerund)))
+def happy_gen():
+    return("#ITPCore2 is happy. %s %s %s" % (random.choice(verb).lower(),random.choice(computer_adj),random.choice(buzz_nouns))
 
-def cur_gen():
-    return("Are %s%ss the new %s%ss?" % (random.choice(computer_prefixes),random.choice(currency).lower(),random.choice(computer_prefixes),random.choice(currency).lower()))
+def ped_gen():
+    return("Interact with pedagogy! %s %s! #ITPCore2" % (random.choice(computer_adj),random.choice(hashtags))
 
-def problem_gen():
-    return("The problem with %s%ss" % (random.choice(computer_prefixes).lower(),random.choice(biparte_nouns).lower()))
+def tech_gen():
+    return("Teaching tech! %s%s #ITPCore2" % (random.choice(computer_adj).lower(),random.choice(buzz_nouns).lower())
 
     
-def future_gen():
-    return("%s%s: The future of %s %s?" % (random.choice(computer_prefixes).title(),random.choice(biparte_nouns),random.choice(computer_adjectives),random.choice(buzz_gerund)))
+# def future_gen():
+#     return("%s%s: The future of %s %s?" % (random.choice(computer_prefixes).title(),random.choice(biparte_nouns),random.choice(computer_adjectives),random.choice(buzz_gerund)))
 
 #def hack_gen():
 #    print("%sfounders hack %s with a simple %s) % ())
@@ -769,15 +769,13 @@ def future_gen():
 # This function randonly picks one of the above templates
 # and and rcalls it to create a sentence
 def generate_sentence():
-    rolldice = random.randint(0,3)
+    rolldice = random.randint(0,2)
     if rolldice == 0:
-        return disrupt_gen()
+        return happy_gen()
     if rolldice == 1:
-        return cur_gen()
+        return ped_gen()
     if rolldice == 2:
-        return future_gen()
-    if rolldice == 3:
-        return problem_gen()
+        return tech_gen()
 
         
 #print(generate_sentence())
@@ -785,7 +783,7 @@ def generate_sentence():
 tfile = open("tweets.txt", 'w')
 
 # Create variable for the site name and a random buzzword hashtag
-site = "technocracynewstoday.com"
+site = "https://2016core2.commons.gc.cuny.edu/"
 hashtag1 = " #" + random.choice(computer_prefixes) + random.choice(biparte_nouns)
 
 
