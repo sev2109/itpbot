@@ -308,7 +308,7 @@ computer_adj = [
     "recursive",
     "Pythonic",
     "functional",
-    "imperitive",
+    "imperative",
     "backend",
     "trontend",
     "social",
