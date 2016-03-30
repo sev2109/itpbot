@@ -731,7 +731,12 @@ handle = [
     "@trsober",
     "@jojokarlin",
     "@smythp",
-    "@emisshula",
+    "@mauraweb",
+    "@mandiberg",
+    "@lisabrundage",
+    "@RobertPRobinson",
+    "@erinroseglass",
+    "@JITPedagogy"
     ]
 
 # Define a function for each template
