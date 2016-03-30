@@ -736,7 +736,9 @@ handle = [
     "@lisabrundage",
     "@RobertPRobinson",
     "@erinroseglass",
-    "@JITPedagogy"
+    "@JITPedagogy",
+    "@miriamkp",
+    "@audreywatters"
     ]
 
 # Define a function for each template
@@ -757,7 +759,7 @@ def create_politico(politician,p_modifier,s_modifier):
 
 
 def happy_gen():
-    return("#ITPCore2 is happy. %s %s %s %s" % (random.choice(handle),random.choice(verb).lower(),random.choice(computer_adj),random.choice(buzz_nouns).lower()))
+    return("#ITPCore2 is %s. %s %s %s" % (random.choice(handle),random.choice(verb).lower(),random.choice(computer_adj),random.choice(buzz_nouns).lower()))
 
 def ped_gen():
     return("Interact with pedagogy! %s %s! #ITPCore2" % (random.choice(computer_adj),random.choice(hashtags)))
@@ -800,7 +802,7 @@ print(sen1)
 # Wites 100 tweets to tweets.py
 # If there's room, also adds two more hashtags to the tweet
 # The /n creates a new line. 
-for numtweets in range(0,100):
+for numtweets in range(0,1000):
     hashtag1 = " #" + random.choice(computer_prefixes) + random.choice(biparte_nouns)
     sen1 = (generate_sentence() + " " + site + hashtag1)
     for limiting1 in range(0,2):
