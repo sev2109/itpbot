@@ -1,7 +1,7 @@
 ## ITPfan 
 
-### product of Jojo's GitHub workshop (all the directions git goes)
-CUNY Graduate Center March 28, 2016
+### product of Jojo's GitHub workshop (all the directions git goes!)
+#### ITP Workshop at the CUNY Graduate Center March 28, 2016
 
 For those who love Interactive Technology and Pedagogy,
 Sara Vogel [@saraevogel](https://twitter.com/saraevogel), Teresa Ober [@trsober](https://twitter.com/trsober), and Jojo Karlin [@jojokarlin](https://twitter.com/jojokarlin)

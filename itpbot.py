@@ -38,6 +38,6 @@ filename.close()
 # First tweet the line, then wait 1200 seconds
 for line in f:
     api.update_status(status=line)
-    time.sleep(6500)
+    time.sleep(3500)
 
 
