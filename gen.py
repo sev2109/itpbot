@@ -780,7 +780,7 @@ print(sen1)
 # Wites 100 tweets to tweets.py
 # If there's room, also adds two more hashtags to the tweet
 # The /n creates a new line. 
-for numtweets in range(0,1000):
+for numtweets in range(0,1):
     hashtag1 = " #" + random.choice(computer_prefixes) + random.choice(biparte_nouns)
     sen1 = (generate_sentence() + " " + site + hashtag1)
     for limiting1 in range(0,2):
