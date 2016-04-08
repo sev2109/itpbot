@@ -737,13 +737,13 @@ def create_politico(politician,p_modifier,s_modifier):
 
 
 def happy_gen():
-    return("#ITPCore2 is %s. %s %s %s" % (random.choice(handle),random.choice(verb).lower(),random.choice(computer_adj),random.choice(buzz_nouns).lower()))
+    return("#ITPCore2 is %s. %s %s %s" % (random.choice(handle),random.choice(verb).lower(),random.choice(computer_adj),random.choice(buzz_nouns).lower())
 
 def ped_gen():
     return("Interact with pedagogy! %s %s! #ITPCore2" % (random.choice(computer_adj),random.choice(hashtags)))
 
 def tech_gen():
-    return("Teaching tech! %s %s #ITPCore2" % (random.choice(computer_adj).lower(),random.choice(buzz_nouns).lower()))
+    return("Teaching tech! %s %s #ITPCore2" % (random.choice(buzz_nouns).lower()))
 
     
 # def future_gen():
@@ -780,7 +780,7 @@ print(sen1)
 # Wites 100 tweets to tweets.py
 # If there's room, also adds two more hashtags to the tweet
 # The /n creates a new line. 
-for numtweets in range(0,1000):
+for numtweets in range(0,1):
     hashtag1 = " #" + random.choice(computer_prefixes) + random.choice(biparte_nouns)
     sen1 = (generate_sentence() + " " + site + hashtag1)
     for limiting1 in range(0,2):
